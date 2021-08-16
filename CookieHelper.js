@@ -45,7 +45,7 @@ var autoPopTwelveth = setInterval(function() {
             wrinkIndex = i;
         }
     }
-    // pop top wrinkler if 10 eating, unless all 12 are shiny
+    // pop top wrinkler if 10 eating, unless all 12 are shinyy
     if (wrinkCount == 10 && wrinkIndex != 10) {
         Game.wrinklers[wrinkIndex].hp = 0;
     }
